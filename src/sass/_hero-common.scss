@@ -1,0 +1,41 @@
+//variables===============
+:root {
+  // color FFB8CA
+  --primery-color: #ffb8ca;
+}
+
+//======================
+// mixins===============
+@mixin mobile {
+  @media screen and (min-width: 320px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+//=======================
+
+.container {
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  @include mobile {
+    min-width: 320px;
+  }
+  @include tablet {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  @include desktop {
+    max-width: 1200px;
+    padding: 0 16px;
+  }
+}
