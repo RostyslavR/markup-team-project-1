@@ -23,11 +23,6 @@
     heroTitle.innerText = '';
 
     printText(text, heroTitle, 100);
-    // document.getElementById('heroTitle').style.color = '#d41443';
-    // setTimeout(function () {
-    // document.getElementById('heroTitle').style.color = '#ffffff';
-    // }, 1000);
-    // document.getElementById('heroTitle').style.transition = 'color 3000';
 
     animateIcecreame(35, 1, 150);
     animateCounters(cafes, valueCafes, 100);
