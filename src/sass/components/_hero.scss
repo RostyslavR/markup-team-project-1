@@ -23,26 +23,6 @@ $hero-height-desktop: 665px;
 .hero__container {
   display: flex;
   justify-content: space-between;
-
-  // =====  need delete
-  // width: 100%;
-  // margin: 0 auto;
-  // padding: 0 20px;
-
-  // @include minBreakpoints(425px) {
-  //   width: 425px;
-  // }
-
-  // @include minBreakpoints($tablet) {
-  //   width: $tablet;
-  //   padding: 0 32px;
-  // }
-
-  // @include minBreakpoints($desktop) {
-  //   width: $desktop;
-  //   padding: 0 16px;
-  // }
-  // // =====
 }
 
 .hero__left-box {
@@ -176,31 +156,31 @@ $hero-height-desktop: 665px;
   display: none;
 }
 
-.hero__giphy {
-  display: none;
-  pointer-events: none;
+// .hero__giphy {
+//   display: none;
+//   pointer-events: none;
 
-  &.is-show {
-    @include desktop {
-      display: block;
-    }
-    & ~ .hero__more-btn__text {
-      font-family: $font-primary;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 8px;
-      line-height: 1.5;
-      color: $secondary-light-color;
+//   &.is-show {
+//     @include desktop {
+//       display: block;
+//     }
+//     & ~ .hero__more-btn__text {
+//       font-family: $font-primary;
+//       font-style: normal;
+//       font-weight: 400;
+//       font-size: 8px;
+//       line-height: 1.5;
+//       color: $secondary-light-color;
 
-      @include tablet {
-        display: block;
-        @include desktop {
-          display: none;
-        }
-      }
-    }
-  }
-}
+//       @include tablet {
+//         display: block;
+//         @include desktop {
+//           display: none;
+//         }
+//       }
+//     }
+//   }
+// }
 
 .hero__more-btn {
   width: 0;
