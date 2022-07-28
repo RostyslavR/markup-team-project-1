@@ -1,15 +1,12 @@
 (() => {
   const heroMoreBtn = document.querySelector('.hero__more-btn');
-  const heroText = document.querySelector('.hero__text');
-  const heroGiphy = document.querySelector('.hero__giphy');
+  const heroMoreText = document.querySelector('.hero__more-text');
 
   heroMoreBtn.addEventListener('click', toggleMore);
   window.addEventListener('load', windoLoad);
 
   function toggleMore() {
-    heroMoreBtn.classList.toggle('is-show');
-    heroText.classList.toggle('is-show');
-    heroGiphy.classList.toggle('is-show');
+    heroMoreText.classList.toggle('is-show');
   }
 
   function windoLoad() {
