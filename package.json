@@ -1,8 +1,8 @@
 {
-  "name": "parcel-project-template",
+  "name": "markup-team-project-1",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://RostyslavR.github.io/team-project-1",
+  "homepage": "https://RostyslavR.github.io/markup-team-project-1",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /team-project-1/"
