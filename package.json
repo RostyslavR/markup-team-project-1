@@ -1,11 +1,11 @@
 {
-  "name": "markup-team-project-1",
+  "name": "markup-team-project-1-icecream",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://RostyslavR.github.io/markup-team-project-1",
+  "homepage": "https://RostyslavR.github.io/markup-team-project-1-icecream",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /markup-team-project-1/"
+    "build": "parcel build src/*.html --public-url /markup-team-project-1-icecream/"
   },
   "repository": {
     "type": "git",
