@@ -5,7 +5,7 @@
   "homepage": "https://RostyslavR.github.io/markup-team-project-1",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project-1/"
+    "build": "parcel build src/*.html --public-url /markup-team-project-1/"
   },
   "repository": {
     "type": "git",
